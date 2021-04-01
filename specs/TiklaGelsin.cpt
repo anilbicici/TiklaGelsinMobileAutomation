@@ -1,0 +1,59 @@
+This is a concept file with following syntax for each concept.
+
+#Sana gelsin butonuna tıklanılır
+*"5" saniye bekle
+*"Konum" li elementi bul ve tıkla
+*"Sana_Gelsin" li elementi bul ve tıkla
+
+#Gel al butonuna tıklanılır
+*"5" saniye bekle
+*"Konum" li elementi bul ve tıkla
+*"Gel_Al" li elementi bul ve tıkla
+
+#Açılan ekranda restorantların listelendiği kontrol edilir -S1
+*"Konum" li elementi bul ve tıkla
+*"Restorant_Metni" li elementin değeri "Sipariş vermek için restoran seç" e eşitliğini kontrol et
+*"Restorant_Kontrol" li element sayfada bulunuyor mu kontrol et
+
+#Açılan ekranda restorantların listelendiği kontrol edilir -S2
+*"Restorant_Metni" li elementin değeri "Şu an bulunduğun konumun çevresindeki restoranlar" e eşitliğini kontrol et
+*"Restorant_Kontrol" li element sayfada bulunuyor mu kontrol et
+
+#Rastgele bir restorant seçilir -S1
+*"5" saniye bekle
+*"4" kere swipe
+*"Restorantlar" li elementi rasgele sec
+
+#Rastgele bir restorant seçilir -S2
+*"5" saniye bekle
+*"4" kere swipe
+*"Restorantlar_GelAl" li elementi rasgele sec
+*"5" saniye bekle
+*"4" kere swipe
+*"Restorantlar" li elementi rasgele sec
+
+#Rastgele bir menü seçilir
+*"5" saniye bekle
+*"4" kere swipe
+*"Menuler" li elementi rasgele sec
+
+#Sepete eklenir
+*"Menu_Fiyat" li elementi bul ve değerini "tutar" olarak sakla
+*"Sepete_Ekle" li elementi bul ve tıkla
+
+#Tutar kontrolü yapılır
+*"Sepet_Fiyat" li elementin yüklenmesini "5" saniye bekle
+*"Sepet_Fiyat" li elementi bul ve değerini "tutar" saklanan değer ile karşılaştır
+
+#Sepete gidilir
+*"Sepete_Git" li elementi bul ve tıkla
+
+#Ödeme sayfasina gidilir
+*"Odeme_Sayfasi" li elementi bul ve tıkla
+
+#Sepet sayfasina geri dönülür
+*"Sepete_Don" li elementi bul ve tıkla
+
+#Sepet boşaltılır
+*"Sepeti_Bosalt" li elementi bul ve tıkla
+*"Onayla" li elementi bul ve tıkla
